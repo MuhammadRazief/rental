@@ -1,0 +1,164 @@
+.about-banner {
+    margin-top: 70px;
+    position: relative;
+    background: linear-gradient(135deg, #2c3e50 60%, #4CAF50 60%);
+    color: #ffffff;
+    padding: 100px 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    overflow: hidden;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
+    transition: background 0.5s ease, box-shadow 0.3s ease;
+  }
+  .banner-content {
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .banner-content h1 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .banner-content h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  
+  .highlight {
+    color: #ffc107;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .highlight:hover {
+    color: #f39c12;
+    transform: scale(1.1);
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Media Queries untuk Responsif Mobile */
+  @media (max-width: 768px) {
+    .about-banner {
+      padding: 80px 10px; /* Mengurangi padding */
+    }
+  
+    .banner-content h1 {
+      font-size: 48px; /* Mengurangi ukuran font pada perangkat kecil */
+      letter-spacing: 1px;
+    }
+  
+    .banner-content h2 {
+      font-size: 18px; /* Mengurangi ukuran font subjudul */
+      margin-top: 10px;
+    }
+  
+    .highlight {
+      font-size: 18px; /* Mengurangi ukuran font highlight */
+      letter-spacing: 2px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-banner {
+      padding: 60px 10px; /* Padding lebih kecil untuk layar sangat kecil */
+    }
+  
+    .banner-content h1 {
+      font-size: 36px; /* Ukuran font judul lebih kecil di perangkat lebih kecil */
+      text-align: center; /* Menyejajarkan teks ke tengah */
+    }
+  
+    .banner-content h2 {
+      font-size: 16px; /* Ukuran font subjudul lebih kecil */
+      text-align: center; /* Menyejajarkan teks ke tengah */
+    }
+  
+    .highlight {
+      font-size: 16px; /* Ukuran font highlight lebih kecil */
+      letter-spacing: 1px;
+    }
+  }
+  
+  
+  .about-page {
+    padding: 2rem;
+    color: #333;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero-text {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .hero-text p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-btn {
+    background-color: #25D366;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-btn i {
+    margin-right: 8px;
+  }
+  
+  .hero-btn:hover {
+    background-color: #1ebe5d;
+  }
+  

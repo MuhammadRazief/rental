@@ -1,0 +1,159 @@
+.kontak-page {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .contact-banner {
+    margin-top: 70px;
+    position: relative;
+    background: linear-gradient(135deg, #2c3e50 60%, #4CAF50 60%);
+    color: #ffffff;
+    padding: 100px 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    overflow: hidden;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
+    transition: background 0.5s ease, box-shadow 0.3s ease;
+  }
+  
+  .banner-content {
+    text-align: center;
+  }
+  
+  .contact-banner h1 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .contact-banner h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  
+  .highlight {
+    color: #ffc107;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .highlight:hover {
+    color: #f39c12;
+    transform: scale(1.1);
+  }
+  
+  /* Content */
+  .main-content {
+    padding: 2rem;
+  }
+  
+  /* Contact Info */
+  .contact-section {
+    padding-left: 55px;
+    padding-right: 55px;
+    /* background-color: #ffffff; */
+  }
+  
+  .contact-info-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    align-items: center;
+  }
+  
+  .contact-image {
+    flex: 1 1 300px;
+    max-width: 100%;
+    max-height: 350px; /* tambahkan ini */
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .contact-details {
+    flex: 1 1 300px;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .contact-details a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-details a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Form & Map */
+  .form-map-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .contact-form,
+  .map-section {
+    flex: 1 1 400px;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .contact-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contact-section{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+  }
