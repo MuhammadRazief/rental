@@ -14,8 +14,8 @@
           </div>
         </div>
       </main>
-      <section class="stats-section">
-        <div class="stats-container">
+  <section class="stats-section">
+  <div class="stats-container">
   <h2>{{ $t('stats') }}</h2>
   <div class="stats-grid">
     <div class="stat-item stat-item-1">
@@ -102,60 +102,57 @@
     </div>
   </div>
 </section>
-
-
 <section class="blog-section">
   <div class="blog-container">
-  <h2>Artikel Terbaru</h2>
-  <div class="blog-grid">
-    <div class="blog-item">
-      <img src="../assets/mobil.jpg" alt="Artikel 1">
-      <h3>Tips Memilih Mobil untuk Perjalanan Jauh</h3>
-      <p>Baca tips-tips terbaik memilih mobil yang nyaman dan aman.</p>
+    <h2 class="banner-title">Artikel Terbaru</h2>
+    <div class="banner-line"></div>
+    <div class="blog-grid">
+      <div class="blog-item">
+        <img src="../assets/mobil.jpg" alt="Artikel 1">
+        <h3>Tips Memilih Mobil untuk Perjalanan Jauh</h3>
+        <p>Baca tips-tips terbaik memilih mobil yang nyaman dan aman untuk perjalanan jauh anda.</p>
+        <a href="/blog/artikel-1" class="read-more">Baca di sini</a>
+      </div>
+      <div class="blog-item">
+        <img src="../assets/mobil.jpg" alt="Artikel 2">
+        <h3>Keuntungan Sewa Mobil Dibanding Transportasi Umum</h3>
+        <p>Pelajari beberapa keuntungan memilih sewa mobil dibandingkan transportasi umum.</p>
+        <a href="/blog/artikel-2" class="read-more">Baca di sini</a>
+      </div>
+      <div class="blog-item">
+        <img src="../assets/mobil.jpg" alt="Artikel 3">
+        <h3>Panduan Merawat Mobil Agar Tetap Awet</h3>
+        <p>Ikuti tips-tips cara merawat mobil anda agar tetap dalam kondisi terbaik.</p>
+        <a href="/blog/artikel-3" class="read-more">Baca di sini</a>
+      </div>
+      <div class="blog-item">
+        <img src="../assets/mobil.jpg" alt="Artikel 4">
+        <h3>Tips Menghemat Bahan Bakar Mobil</h3>
+        <p>Berikut cara menghemat bahan bakar saat berkendara di perjalanan yang jauh</p>
+        <a href="/blog/artikel-4" class="read-more">Baca di sini</a>
+      </div>
+      <div class="blog-item">
+        <img src="../assets/mobil.jpg" alt="Artikel 5">
+        <h3>Mengenal Fitur-Fitur Mobil Modern</h3>
+        <p>Pelajari fitur-fitur mobil terbaru yang memudahkan pengemudi dan meningkatkan kenyamanan.</p>
+        <a href="/blog/artikel-5" class="read-more">Baca di sini</a>
+      </div>
+      <div class="blog-item">
+        <img src="../assets/mobil.jpg" alt="Artikel 6">
+        <h3>Perawatan Rutin yang Harus Dilakukan Pada Mobil</h3>
+        <p>Rutin melakukan perawatan mobil untuk memperpanjang usia kendaraan.</p>
+        <a href="/blog/artikel-6" class="read-more">Baca di sini</a>
+      </div>
     </div>
-    <div class="blog-item">
-      <img src="../assets/mobil.jpg" alt="Artikel 2">
-      <h3>Keuntungan Sewa Mobil Dibandingkan Transportasi Umum</h3>
-      <p>Pahami keuntungan lebih memilih sewa mobil.</p>
-    </div>
-    <div class="blog-item">
-      <img src="../assets/mobil.jpg" alt="Artikel 3">
-      <h3>Panduan Merawat Mobil Agar Tetap Awet</h3>
-      <p>Ikuti tips merawat mobil agar tetap dalam kondisi prima.</p>
-    </div>
-    <div class="blog-item">
-      <img src="../assets/mobil.jpg" alt="Artikel 4">
-      <h3>Tips Menghemat Bahan Bakar Mobil</h3>
-      <p>Temukan cara menghemat bahan bakar saat berkendara.</p>
-    </div>
-    <div class="blog-item">
-      <img src="../assets/mobil.jpg" alt="Artikel 5">
-      <h3>Mengenal Fitur-Fitur Mobil Modern</h3>
-      <p>Pelajari fitur-fitur mobil terbaru yang memudahkan pengemudi.</p>
-    </div>
-    <div class="blog-item">
-      <img src="../assets/mobil.jpg" alt="Artikel 6">
-      <h3>Perawatan Rutin yang Harus Dilakukan Pada Mobil</h3>
-      <p>Rutin melakukan perawatan mobil untuk memperpanjang usia kendaraan.</p>
-    </div>
-  </div>
   </div>
 </section>
+
 
 <section class="armada-section">
   <h2>Lihat Armada Kami</h2>
   <p>Kami memiliki berbagai pilihan mobil untuk kebutuhan perjalanan Anda. Temukan mobil yang sesuai dengan preferensi Anda sekarang juga.</p>
   <router-link to="/armada" class="btn btn-blue">Lihat Armada</router-link>
 </section>
-
-
-
-
-
-
-
-
-
 
       <Whatsapp />
       <Footer />

@@ -34,7 +34,7 @@
           <router-link to="/">{{ $t('home') }}</router-link>
           <router-link to="/about">{{ $t('about') }}</router-link>
           <router-link to="/armada">{{ $t('armada') }}</router-link>
-          <router-link to="/testimoni"> {{ $t('testimoni') }}</router-link>
+          <router-link to="/blog"> {{ $t('blog') }}</router-link>
           <router-link to="/contact">{{ $t('kontak') }}</router-link>
         </nav>
   
@@ -57,7 +57,7 @@
           <router-link to="/" @click="toggleMenu">{{ $t('home') }}</router-link>
           <router-link to="/about" @click="toggleMenu">{{ $t('about') }}</router-link>
           <router-link to="/armada" @click="toggleMenu">{{ $t('armada') }}</router-link>
-          <router-link to="/testimoni" @click="toggleMenu">{{ $t('testimoni') }}</router-link>
+          <router-link to="/blog" @click="toggleMenu">{{ $t('blog') }}</router-link>
           <router-link to="/contact" @click="toggleMenu">{{ $t('kontak')}}</router-link>
   
           <!-- Language selection for MOBILE inside sidebar -->

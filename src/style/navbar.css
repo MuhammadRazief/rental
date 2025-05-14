@@ -272,6 +272,7 @@ body {
   @media (max-width: 768px) {
     .hamburger {
       display: block;
+      padding-left: 0;
     }
   
     .topbar .follow-text {
